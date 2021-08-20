@@ -1,0 +1,30 @@
+/* PARTE DE NAVEGACION */
+
+body {
+    background-color: rgba(240, 239, 242, 1);
+}
+
+header{
+        background-color:rgba(116, 162, 191, 1);
+        .navbar {
+            .container-fluid {
+                font-family: 'Bebas Neue';
+                font-size: 20px;
+                animation: 2s;
+                animation-name: aparecer;
+                text-align: center;
+                border-radius: 10px;
+                
+
+                    a{
+                        &:hover{
+                            background-color: rgba(51, 68, 89, 1);
+                            transition: all 2s;
+                            border-radius: 10px;
+                            text-align: center;
+                        }
+
+                     }
+            }   
+        }
+}

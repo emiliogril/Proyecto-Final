@@ -1,0 +1,35 @@
+/* PARTE DE TRABAJAS CON NOSOTROS */
+
+.Trabajaconnosotros {
+    margin-top: 50px;
+    background-color: rgba(126, 172, 191, 1);
+    padding: 50px;
+
+    .TituloPrincipal {
+        font-family: Roboto, sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        color: rgba(240, 239, 242, 1); 
+        letter-spacing: 2px;
+        text-align: center;
+    
+        .Subtitulos {
+             color: black;
+             font-family: 'Roboto', sans-serif;
+             font-size: 18px;
+             font-weight: lighter;
+             text-align: center;
+             padding-bottom: 5px;
+             margin-left: 20px;
+             margin-right: 20px;
+         
+        }
+    }
+}
+
+form {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+   }

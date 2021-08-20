@@ -1,0 +1,37 @@
+
+@media only screen and (max-width:800px) {
+ 
+    html {
+        .TituloPrincipal {
+            font-size: 60px;
+                .Subtitulos {
+                   font-size: 16px;
+                     .textoSubtitulos {
+                        font-size: 16px;
+                            .tituloGrande{
+                                  font-size: 60px;
+                                      .volverLink {
+                                         font-size: 20px;
+                                        }
+                            }
+                    }
+            }
+        }   
+    }   
+    .caja {
+        .container{
+    
+            .col {
+                display: inline-flex;
+                flex-wrap: nowrap;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 5vh;
+                
+            .imagenServicios {
+            width: 190px;
+            
+        }
+    }
+}}}
+   

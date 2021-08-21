@@ -2,7 +2,7 @@
 
 .Servicios {
     background-color: rgba(242, 192, 174, 1);
-    margin-bottom: 10px;
+    width: 60%;
     .TituloPrincipal {
         padding-top: 50px;
     }
@@ -10,9 +10,9 @@
 }
 
 .caja {
-    .container{
+    width: 60%;
 
-        .col {
+        .card-body {
             color: rgba(240, 239, 242, 1);
             background-color: rgba(126, 172, 191, 1);
             font-family: Roboto, sans-serif;
@@ -20,13 +20,7 @@
             font-weight: normal;
             text-align: center;
             border-radius: 10px;
-            margin: 2vh;
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: row;
-            justify-content: center;
-            max-width: 240px;
-           
+            
             .texto-espacio {
                 margin-top: 2vh ;
                 text-align: center;
@@ -39,7 +33,7 @@
             }   
             
         }
-    }
+    
 }
 
 
@@ -51,21 +45,16 @@
     
 }
 
-
-// .textoSub {
-//     color: rgba(240, 239, 242, 1);
-//     font-family: Roboto, sans-serif;
-//     font-size: 12px;
-//     font-weight: normal;
-//     text-align: left;
-//     margin: 10px ;
-//     background-color:rgba(51, 68, 89, 1);
-//     border-radius: 10px;
-//     padding-top: 10px;
-//     padding-left: 5px;
-//     padding-right: 5px;
-
-    
-// }
-
-
+// Source mixin
+@mixin make-container($padding-x: $container-padding-x) {
+    width: 100%;
+    padding-right: $padding-x;
+    padding-left: $padding-x;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  // Usage
+  .custom-container {
+    @include make-container();
+  }

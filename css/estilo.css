@@ -82,49 +82,52 @@ header .navbar .container-fluid a:hover {
 /* PARTE DE SERVICIOS */
 .Servicios {
   background-color: #f2c0ae;
-  margin-bottom: 10px;
 }
 .Servicios .TituloPrincipal {
   padding-top: 50px;
 }
 
-.caja .container .col {
+.Servicios {
+  background-color: #f2c0ae;
+}
+
+.imagenServicios1 {
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.imagenServicios2 {
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.imagenServicios3 {
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.imagenServicios4 {
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.container .col {
   color: #f0eff2;
   background-color: #7eacbf;
   font-family: Roboto, sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: normal;
+  letter-spacing: 1px;
   text-align: center;
   border-radius: 10px;
-  margin: 2vh;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-  max-width: 240px;
-}
-.caja .container .col .texto-espacio {
-  margin-top: 2vh;
-  text-align: center;
-  background-color: rgba(51, 68, 89, 0.473);
-  border-radius: 10px;
-  padding: 10px;
-  width: 240px;
-  max-width: 100%;
-}
-
-.imagenServicios {
-  border-radius: 10px;
-  text-align: center;
-  vertical-align: middle;
-  margin-bottom: 14px;
+  margin: 30px;
 }
 
 /* PARTE DE CLIENTES */
 .Clientes {
   margin-top: 50px;
 }
-.Clientes .container .col {
+.Clientes .container {
   background-color: white;
   text-align: center;
   border-radius: 10px;
@@ -188,7 +191,6 @@ form {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin-left: 10px;
   list-style: none;
   padding: 50px;
   letter-spacing: 50px;

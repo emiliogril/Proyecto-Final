@@ -2,59 +2,51 @@
 
 .Servicios {
     background-color: rgba(242, 192, 174, 1);
-    width: 60%;
+  
     .TituloPrincipal {
         padding-top: 50px;
     }
    
 }
 
-.caja {
-    width: 60%;
-
-        .card-body {
-            color: rgba(240, 239, 242, 1);
-            background-color: rgba(126, 172, 191, 1);
-            font-family: Roboto, sans-serif;
-            font-size: 14px;
-            font-weight: normal;
-            text-align: center;
-            border-radius: 10px;
-            
-            .texto-espacio {
-                margin-top: 2vh ;
-                text-align: center;
-                background-color:rgba(51, 68, 89, 0.473);
-                border-radius: 10px;
-                padding: 10px;
-                width: 240px;
-                max-width: 100%;
-                
-            }   
-            
-        }
-    
+.Servicios {
+    background-color: rgba(242, 192, 174, 1);
 }
 
-
-.imagenServicios {
+.imagenServicios1 {
     border-radius: 10px;
-    text-align: center;
-    vertical-align: middle;
-    margin-bottom: 14px;
-    
+    margin: 10px;
 }
 
-// Source mixin
-@mixin make-container($padding-x: $container-padding-x) {
-    width: 100%;
-    padding-right: $padding-x;
-    padding-left: $padding-x;
-    margin-right: auto;
-    margin-left: auto;
-  }
-  
-  // Usage
-  .custom-container {
-    @include make-container();
-  }
+.imagenServicios2 {
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.imagenServicios3 {
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.imagenServicios4 {
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+.container{
+
+    .col {
+        color: rgba(240, 239, 242, 1);
+        background-color: rgba(126, 172, 191, 1);
+        font-family: Roboto, sans-serif;
+        font-size: 12px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        text-align: center;
+        border-radius: 10px;
+        margin: 30px;   
+    }
+}
+
+

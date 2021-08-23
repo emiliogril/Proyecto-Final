@@ -192,8 +192,9 @@ form {
   flex-wrap: wrap;
   justify-content: center;
   list-style: none;
-  padding: 50px;
+  padding: 100px;
   letter-spacing: 50px;
+  align-items: center;
 }
 .Logos img {
   background-color: white;

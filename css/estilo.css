@@ -10,7 +10,11 @@ body {
   background-color: #f0eff2;
 }
 
-header {
+header .navbar {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 5;
   background-color: #74a2bf;
 }
 header .navbar .container-fluid {
@@ -168,6 +172,7 @@ header .navbar .container-fluid a:hover {
   margin-top: 50px;
   background-color: #7eacbf;
   padding: 50px;
+  scroll-margin-top: 2em;
 }
 .Trabajaconnosotros .TituloPrincipal {
   font-family: Roboto, sans-serif;

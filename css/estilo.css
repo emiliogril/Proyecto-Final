@@ -79,9 +79,18 @@ header .navbar .container-fluid a:hover {
   text-align: center;
 }
 
+.NuestrosValores {
+  scroll-margin-top: 7em;
+}
+
+.carousel-inner {
+  margin-top: 50px;
+}
+
 /* PARTE DE SERVICIOS */
 .Servicios {
   background-color: #f2c0ae;
+  scroll-margin-top: 2em;
 }
 .Servicios .TituloPrincipal {
   padding-top: 50px;
@@ -126,6 +135,7 @@ header .navbar .container-fluid a:hover {
 /* PARTE DE CLIENTES */
 .Clientes {
   margin-top: 50px;
+  scroll-margin-top: 2em;
 }
 .Clientes .container {
   background-color: white;
@@ -206,6 +216,7 @@ form {
 /* PARTE DE CONTACTO */
 .Contacto {
   background-color: #f2c0ae;
+  scroll-margin-top: 2em;
 }
 .Contacto .TituloPrincipal {
   font-family: Roboto, sans-serif;

@@ -3,6 +3,7 @@
 .Servicios {
     background-color: rgba(242, 192, 174, 1);
     scroll-margin-top: 2em;
+    margin-bottom: 50px;
   
     .TituloPrincipal {
         padding-top: 50px;
@@ -46,7 +47,9 @@
         letter-spacing: 1px;
         text-align: center;
         border-radius: 10px;
-        margin: 4px;   
+        margin: 4px; 
+        padding-top: 15px;
+        padding-bottom: 15px;  
     }
 }
 

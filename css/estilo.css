@@ -95,6 +95,7 @@ header .navbar .container-fluid a:hover {
 .Servicios {
   background-color: #f2c0ae;
   scroll-margin-top: 2em;
+  margin-bottom: 50px;
 }
 .Servicios .TituloPrincipal {
   padding-top: 50px;
@@ -134,6 +135,8 @@ header .navbar .container-fluid a:hover {
   text-align: center;
   border-radius: 10px;
   margin: 4px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 /* PARTE DE CLIENTES */

@@ -251,7 +251,8 @@ form {
 /* PARTE DE FOOTER */
 .footer {
   background-color: #929292;
-  padding: 20px;
+  padding-top: 50px;
+  height: 150px;
 }
 .footer .redesSociales, .footer a {
   display: flex;

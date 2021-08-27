@@ -125,12 +125,12 @@ header .navbar .container-fluid a:hover {
   margin: 10px;
 }
 
-.container .col {
+.caja-base .container .col {
   color: #f0eff2;
   background-color: #7eacbf;
   font-family: Roboto, sans-serif;
   font-size: 12px;
-  font-weight: normal;
+  font-weight: bold;
   letter-spacing: 1px;
   text-align: center;
   border-radius: 10px;

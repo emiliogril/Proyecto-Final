@@ -9,7 +9,7 @@
     <meta name="copy" content="Dual Key">
     <meta name="author" content="Emilio Gril">
 
-
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <!-- BOOTSTRAP -->
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
@@ -50,7 +50,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                            <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#NuestrosValores">Nuestro Valores</a>
@@ -70,7 +70,7 @@
     </header>
 
     <!-- ZONA NUESTRO VALORES -->
-    <section id="NuestrosValores" class="NuestrosValores">
+    <main id="NuestrosValores" class="NuestrosValores">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -98,30 +98,30 @@
             </button>
         </div>
 
-    </section>
+    </main>
 
     <!-- SERVICIOS -->
 
     <section id="Servicios" class="Servicios">
-        <div class="w-100 p-3">
+        
             <H1 class="TituloPrincipal">Nuestros Servicios</H1>
             <p class="Subtitulos">Te ofrecemos diferentes packs segun tus necesidades</p>
 
 <div class="caja-base">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col">PACK INTERNACION DOMICILIARIA<img class="imagenServicios1"
+            <div class="container w-100 p-5">
+                <div class="row g-0">
+                    <div class="col text-center border-2">PACK INTERNACION DOMICILIARIA<img class="imagenServicios1"
                             src="imagenes/doctor1.jpg" alt="Medicos">
                     </div>
 
-                    <div class="col">PACK CUIDADOS DOMICILIARIOS<img class="imagenServicios2" src="imagenes/doctor2.jpg" alt="Enfermera">
+                    <div class="col text-center border-2">PACK CUIDADOS DOMICILIARIOS<img class="imagenServicios1" src="imagenes/doctor2.jpg" alt="Enfermera">
                     </div>
 
-                    <div class="col">PACK CUIDADOS PALIATIVOS<img class="imagenServicios3" src="imagenes/doctor3.jpg" alt="Paciente">
+                    <div class="col text-center border-2">PACK CUIDADOS PALIATIVOS<img class="imagenServicios1" src="imagenes/doctor3.jpg" alt="Paciente">
                     </div>
 
-                    <div class="col">
-                        PACK ENFERMEDADES CRÓNICA<img class="imagenServicios4" src="imagenes/doctor4.jpg" alt="Paciente">
+                    <div class="col text-center border-2">
+                        PACK ENFERMEDADES CRÓNICA<img class="imagenServicios1" src="imagenes/doctor4.jpg" alt="Paciente">
                     </div>
 
                 </div>
@@ -132,7 +132,8 @@
     <!-- NUESTRO CLIENTES -->
 
     <section id="Clientes" class="Clientes">
-        <p class="TituloPrincipal">Nuestros Clientes <br>Seguros de Salud</p>
+        <p class="TituloPrincipal">Nuestros Clientes</p>
+        <p class="TituloPrincipal">Seguros de Salud</p>
         <h2 class="Subtitulos">Trabajamos con los mejores seguros de salud de Argentina</h2>
 
      
@@ -237,7 +238,7 @@
             <a href="https://www.instagram.com" target="_blank" rel="noopener"><img src="imagenes/instagram.png" alt="Instagram"></a>
 
         </div>
-        <div class="copy">© 2021 Internación Domiciliaria. Todos los derechos reservados.</div>
+        <p class="copy">© 2021 Internación Domiciliaria. Todos los derechos reservados.</p>
 
     </footer>
 
@@ -247,6 +248,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
+    <script>
+        $('.navbar-nav>li>a').on('click', function(){
+            $('.navbar-collapse').collapse('hide');
+        });</script>
 </body>
 
 </html>

@@ -10,22 +10,20 @@ body {
   background-color: #f0eff2;
 }
 
-header .navbar {
+header {
   position: fixed;
   top: 0px;
   width: 100%;
   z-index: 5;
   background-color: #74a2bf;
-}
-header .navbar .container-fluid {
   font-family: "Bebas Neue";
   font-size: 20px;
   animation: 2s;
   animation-name: aparecer;
   text-align: center;
-  border-radius: 10px;
+  margin-bottom: 50px;
 }
-header .navbar .container-fluid a:hover {
+header a:hover {
   background-color: #334459;
   transition: all 2s;
   border-radius: 10px;
@@ -36,7 +34,7 @@ header .navbar .container-fluid a:hover {
 /* FUENTES */
 .TituloPrincipal {
   font-family: Roboto, sans-serif;
-  font-size: 35px;
+  font-size: 25px;
   font-weight: bold;
   color: #334459;
   letter-spacing: 2px;
@@ -85,10 +83,7 @@ header .navbar .container-fluid a:hover {
 
 .NuestrosValores {
   scroll-margin-top: 7em;
-}
-
-.carousel-inner {
-  margin-top: 50px;
+  padding-top: 60px;
 }
 
 /* PARTE DE SERVICIOS */
@@ -101,26 +96,7 @@ header .navbar .container-fluid a:hover {
   padding-top: 50px;
 }
 
-.Servicios {
-  background-color: #f2c0ae;
-}
-
 .imagenServicios1 {
-  border-radius: 10px;
-  margin: 10px;
-}
-
-.imagenServicios2 {
-  border-radius: 10px;
-  margin: 10px;
-}
-
-.imagenServicios3 {
-  border-radius: 10px;
-  margin: 10px;
-}
-
-.imagenServicios4 {
   border-radius: 10px;
   margin: 10px;
 }
@@ -143,12 +119,6 @@ header .navbar .container-fluid a:hover {
 .Clientes {
   margin-top: 50px;
   scroll-margin-top: 2em;
-}
-.Clientes .container {
-  background-color: white;
-  text-align: center;
-  border-radius: 10px;
-  margin: 5px;
 }
 
 .TituloPrincipal {

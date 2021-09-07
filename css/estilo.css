@@ -34,7 +34,7 @@ header a:hover {
 /* FUENTES */
 .TituloPrincipal {
   font-family: Roboto, sans-serif;
-  font-size: 25px;
+  font-size: 35px;
   font-weight: bold;
   color: #334459;
   letter-spacing: 2px;
@@ -98,10 +98,10 @@ header a:hover {
 
 .imagenServicios1 {
   border-radius: 10px;
-  margin: 10px;
+  margin: 5px;
 }
 
-.caja-base .container .col {
+.caja-base .col-servicios {
   color: #f0eff2;
   background-color: #7eacbf;
   font-family: Roboto, sans-serif;
@@ -121,15 +121,15 @@ header a:hover {
   scroll-margin-top: 2em;
 }
 
-.TituloPrincipal {
+.TituloPrincipalClientes {
   font-family: Roboto, sans-serif;
-  font-size: 40px;
+  font-size: 35px;
   font-weight: bold;
   color: #334459;
   letter-spacing: 2px;
   text-align: center;
 }
-.TituloPrincipal .Subtitulos {
+.TituloPrincipalClientes .Subtitulos {
   color: black;
   font-family: Roboto, sans-serif;
   font-size: 50px;
@@ -165,8 +165,7 @@ header a:hover {
   margin-left: 20px;
   margin-right: 20px;
 }
-
-form {
+.Trabajaconnosotros .TituloPrincipal .Subtitulos form {
   color: black;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
@@ -205,17 +204,17 @@ form {
   text-align: center;
   padding-top: 50px;
 }
+.Contacto .TituloPrincipal form {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+}
 
 .formulario {
   margin-left: 50px;
   margin-right: 50px;
   padding-bottom: 20px;
-}
-.formulario form {
-  color: black;
-  font-family: "Roboto", sans-serif;
-  font-size: 15px;
-  font-weight: lighter;
 }
 
 /* PARTE DE FOOTER */

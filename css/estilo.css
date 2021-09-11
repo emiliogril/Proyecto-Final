@@ -2,13 +2,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 * {
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 /* PARTE DE NAVEGACION */
 body {
-  background-color: #f0eff2;
-}
+  background-color: #f0eff2; }
 
 header {
   position: fixed;
@@ -16,19 +14,17 @@ header {
   width: 100%;
   z-index: 5;
   background-color: #74a2bf;
-  font-family: "Bebas Neue";
+  font-family: 'Bebas Neue';
   font-size: 20px;
   animation: 2s;
   animation-name: aparecer;
   text-align: center;
-  margin-bottom: 50px;
-}
-header a:hover {
-  background-color: #334459;
-  transition: all 2s;
-  border-radius: 10px;
-  text-align: center;
-}
+  margin-bottom: 50px; }
+  header a:hover {
+    background-color: #334459;
+    transition: all 2s;
+    border-radius: 10px;
+    text-align: center; }
 
 /* PANTONE DE COLORES */
 /* FUENTES */
@@ -38,8 +34,7 @@ header a:hover {
   font-weight: bold;
   color: #334459;
   letter-spacing: 2px;
-  text-align: center;
-}
+  text-align: center; }
 
 .Subtitulos {
   color: black;
@@ -49,19 +44,17 @@ header a:hover {
   letter-spacing: 1px;
   text-align: center;
   margin-left: 20px;
-  margin-right: 20px;
-}
+  margin-right: 20px; }
 
 .textoSubtitulos {
   color: black;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-weight: lighter;
   text-align: center;
   padding-bottom: 5px;
   margin-left: 20px;
-  margin-right: 20px;
-}
+  margin-right: 20px; }
 
 .tituloGrande {
   font-family: Roboto, sans-serif;
@@ -69,8 +62,7 @@ header a:hover {
   font-weight: bold;
   color: #334459;
   letter-spacing: 2px;
-  text-align: center;
-}
+  text-align: center; }
 
 .volverLink {
   font-family: Roboto, sans-serif;
@@ -78,28 +70,23 @@ header a:hover {
   font-weight: bold;
   color: #7eacbf;
   letter-spacing: 2px;
-  text-align: center;
-}
+  text-align: center; }
 
 .NuestrosValores {
   scroll-margin-top: 7em;
-  padding-top: 60px;
-}
+  padding-top: 60px; }
 
 /* PARTE DE SERVICIOS */
 .Servicios {
   background-color: #f2c0ae;
   scroll-margin-top: 2em;
-  margin-bottom: 50px;
-}
-.Servicios .TituloPrincipal {
-  padding-top: 50px;
-}
+  margin-bottom: 50px; }
+  .Servicios .TituloPrincipal {
+    padding-top: 50px; }
 
 .imagenServicios1 {
   border-radius: 10px;
-  margin: 5px;
-}
+  margin: 5px; }
 
 .caja-base .col-servicios {
   color: #f0eff2;
@@ -112,14 +99,12 @@ header a:hover {
   border-radius: 10px;
   margin: 4px;
   padding-top: 15px;
-  padding-bottom: 15px;
-}
+  padding-bottom: 15px; }
 
 /* PARTE DE CLIENTES */
 .Clientes {
   margin-top: 50px;
-  scroll-margin-top: 2em;
-}
+  scroll-margin-top: 2em; }
 
 .TituloPrincipalClientes {
   font-family: Roboto, sans-serif;
@@ -127,50 +112,51 @@ header a:hover {
   font-weight: bold;
   color: #334459;
   letter-spacing: 2px;
-  text-align: center;
-}
-.TituloPrincipalClientes .Subtitulos {
-  color: black;
-  font-family: Roboto, sans-serif;
-  font-size: 50px;
-  font-weight: normal;
-  letter-spacing: 1px;
-  text-align: center;
-  margin-left: 20px;
-  margin-right: 20px;
-}
+  text-align: center; }
+  .TituloPrincipalClientes .Subtitulos {
+    color: black;
+    font-family: Roboto, sans-serif;
+    font-size: 50px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px; }
+
+.Logos {
+  -webkit-transition: 1s linear;
+  transition: 1s linear; }
+
+.Logos, a:hover {
+  opacity: 0.3; }
 
 /* PARTE DE TRABAJAS CON NOSOTROS */
 .Trabajaconnosotros {
   margin-top: 50px;
   background-color: #7eacbf;
   padding: 50px;
-  scroll-margin-top: 2em;
-}
-.Trabajaconnosotros .TituloPrincipal {
-  font-family: Roboto, sans-serif;
-  font-size: 40px;
-  font-weight: bold;
-  color: #f0eff2;
-  letter-spacing: 2px;
-  text-align: center;
-}
-.Trabajaconnosotros .TituloPrincipal .Subtitulos {
-  color: black;
-  font-family: "Roboto", sans-serif;
-  font-size: 18px;
-  font-weight: lighter;
-  text-align: center;
-  padding-bottom: 5px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-.Trabajaconnosotros .TituloPrincipal .Subtitulos form {
-  color: black;
-  font-family: "Roboto", sans-serif;
-  font-size: 15px;
-  font-weight: lighter;
-}
+  scroll-margin-top: 2em; }
+  .Trabajaconnosotros .TituloPrincipal {
+    font-family: Roboto, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f0eff2;
+    letter-spacing: 2px;
+    text-align: center; }
+    .Trabajaconnosotros .TituloPrincipal .Subtitulos {
+      color: black;
+      font-family: 'Roboto', sans-serif;
+      font-size: 18px;
+      font-weight: lighter;
+      text-align: center;
+      padding-bottom: 5px;
+      margin-left: 20px;
+      margin-right: 20px; }
+      .Trabajaconnosotros .TituloPrincipal .Subtitulos form {
+        color: black;
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        font-weight: lighter; }
 
 /* PARTE DE LOGOS */
 .Logos {
@@ -181,56 +167,48 @@ header a:hover {
   list-style: none;
   padding: 100px;
   letter-spacing: 50px;
-  align-items: center;
-}
-.Logos img {
-  background-color: white;
-  text-align: center;
-  border-radius: 10px;
-  margin: 5px;
-}
+  align-items: center; }
+  .Logos img {
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: 5px; }
 
 /* PARTE DE CONTACTO */
 .Contacto {
   background-color: #f2c0ae;
-  scroll-margin-top: 2em;
-}
-.Contacto .TituloPrincipal {
-  font-family: Roboto, sans-serif;
-  font-size: 40px;
-  font-weight: bold;
-  color: white;
-  letter-spacing: 2px;
-  text-align: center;
-  padding-top: 50px;
-}
-.Contacto .TituloPrincipal form {
-  color: black;
-  font-family: "Roboto", sans-serif;
-  font-size: 15px;
-  font-weight: lighter;
-}
+  scroll-margin-top: 2em; }
+  .Contacto .TituloPrincipal {
+    font-family: Roboto, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 50px; }
+    .Contacto .TituloPrincipal form {
+      color: black;
+      font-family: 'Roboto', sans-serif;
+      font-size: 15px;
+      font-weight: lighter; }
 
 .formulario {
   margin-left: 50px;
   margin-right: 50px;
-  padding-bottom: 20px;
-}
+  padding-bottom: 20px; }
 
 /* PARTE DE FOOTER */
 .footer {
   background-color: #929292;
   padding-top: 50px;
-  height: 150px;
-}
-.footer .redesSociales, .footer a {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-left: 10px;
-  list-style: none;
-}
+  height: 150px; }
+  .footer .redesSociales, .footer a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 10px;
+    list-style: none; }
 
 .copy {
   font-family: Roboto, sans-serif;
@@ -238,23 +216,18 @@ header a:hover {
   color: white;
   font-weight: lighter;
   text-align: center;
-  margin-top: 5px;
-}
+  margin-top: 5px; }
 
 /* PARTE DE ERROR 404 */
 .body-error {
   width: 100%;
   height: 100%;
   max-width: 100%;
-  text-align: center;
-}
-.body-error a {
-  background-color: #f2c0ae;
-  padding: 10px;
-  border-radius: 5px;
-  margin-left: 5px;
-  margin-right: 5px;
-  display: inline-block;
-}
-
-/*# sourceMappingURL=estilo.css.map */
+  text-align: center; }
+  .body-error a {
+    background-color: #f2c0ae;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block; }

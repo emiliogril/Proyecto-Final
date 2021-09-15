@@ -17,21 +17,6 @@
                     }
             }
         }   
-    }   
-    .caja {
-        .container{
-    
-            .col {
-                display: inline-flex;
-                flex-wrap: nowrap;
-                flex-direction: row;
-                justify-content: space-between;
-                width: 5vh; 
-                @media only screen and (max-width:800px) {   
-            .imagenServicios1 {
-            width: 190px;
-            
-        }
     }
-}}}}
+}
    

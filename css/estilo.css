@@ -123,13 +123,6 @@ header {
     margin-left: 20px;
     margin-right: 20px; }
 
-.Logos {
-  -webkit-transition: 1s linear;
-  transition: 1s linear; }
-
-.Logos, a:hover {
-  opacity: 0.3; }
-
 /* PARTE DE TRABAJAS CON NOSOTROS */
 .Trabajaconnosotros {
   margin-top: 50px;

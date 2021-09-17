@@ -1,9 +1,9 @@
 <h1 align="center">Hola soy Emilio Gril</h1>
-<h3 align="center">Un desarrollador de frontend apasionado</h3>
+<h3 align="center">Soy desarrollador de frontend apasionado</h3>
 
 - Actualmente trabajando en [ANSES](http://www.anses.gov.ar)
 
-- 🌱Actualmente estoy aprendiendo **Desarrollo web**
+- 🌱Actualmente estoy estudiando **Desarrollo Full Stack**
 
 - 📫Mi Email **emiliogril@gmail.com**
 
